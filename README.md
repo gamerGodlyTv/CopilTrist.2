@@ -209,6 +209,41 @@ namespace CopilTrist
                             Console.WriteLine("Wrong !");
                             Console.WriteLine("You have " + a +" points");
                         }
+                        Console.WriteLine("Question 2");
+                        Thread.Sleep(500);
+                        Console.WriteLine("Express in a word: \"Make an attempt or effort to do something.\"");
+                        Console.WriteLine("Tip: It's in the lesson 4");
+                        string intrebareA2 = Console.ReadLine();
+                        if (intrebareA2.Contains("To try"))
+                        {
+                            Console.WriteLine("Good Job");
+                            Console.WriteLine("You have " + c + " points");
+                        }
+                        else if (intrebareA2.Contains("To Try"))
+                        {
+                            Console.WriteLine("Good Job");
+                            Console.WriteLine("You have " + c + " points");
+                        }
+                        else if (intrebareA2.Contains("to try"))
+                        {
+                            Console.WriteLine("Good Job");
+                            Console.WriteLine("You have " + c + " points");
+                        }
+                        else if (intrebareA2.Contains("try"))
+                        {
+                            Console.WriteLine("Good Job");
+                            Console.WriteLine("You have " + c + " points");
+                        }
+                        else if (intrebareA2.Contains("Try"))
+                        {
+                            Console.WriteLine("Good Job");
+                            Console.WriteLine("You have " + c + " points");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Wrong !");
+                            Console.WriteLine("You have "+ b + " points");
+                        }
                         
 
                     }
