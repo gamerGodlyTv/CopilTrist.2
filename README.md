@@ -182,7 +182,8 @@ namespace CopilTrist
                         }
 
                         Evaluare:;
-                        Console.WriteLine()
+                        Console.WriteLine("Welcome to the test!It is based on the 4 lessons you had.Wish you Good Luck!");
+                        Console.WriteLine("Question 1");
                         
 
                     }
