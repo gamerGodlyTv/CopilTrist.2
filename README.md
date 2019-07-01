@@ -13,6 +13,12 @@ namespace CopilTrist
     {
         static void Main(string[] args)
         {
+            int a = 0;
+            int b = 1;
+            int c = 2;
+            int d = 3;
+            
+            
             
             Console.WriteLine("Hello,welcome to you new English course");
             Console.WriteLine(" Please choose your language: ");
@@ -184,6 +190,25 @@ namespace CopilTrist
                         Evaluare:;
                         Console.WriteLine("Welcome to the test!It is based on the 4 lessons you had.Wish you Good Luck!");
                         Console.WriteLine("Question 1");
+                        Console.WriteLine("What gender is the pronoun \"She\" ?");
+                        string intrebareA1 = Console.ReadLine();
+                        if (intrebareA1.Contains("Feminine"))
+                        {
+                            Console.WriteLine("Nice !");
+                            Console.WriteLine("You have " + b + " points");
+
+                        }
+                        else if (intrebareA1.Contains("feminine"))
+                        {
+                            Console.WriteLine("Nice !");
+                            Console.WriteLine("You have " + b + " points");
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Wrong !");
+                            Console.WriteLine("You have " + a +" points");
+                        }
                         
 
                     }
